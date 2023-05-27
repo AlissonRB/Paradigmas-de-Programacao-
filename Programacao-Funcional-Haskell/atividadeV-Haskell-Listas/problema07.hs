@@ -1,0 +1,10 @@
+-- 7. Motifique o arquivo alunos.hs (disponı́vel no Moodle) de forma a adicionar novas funções:
+-- A: Crie uma função com a seguinte assinatura: aprovados :: [(Int, String, Float)] -> [String],
+-- a qual recebe uma lista de alunos e retorna uma lista com o nome dos alunos aprovados. Um aluno
+-- está aprovado se a sua média é maior ou igual a 6. Utilize map e filter para resolver esta questão.
+-- B: Crie uma função com a seguinte assinatura: aprovados2 :: [(Int, String, Float)] -> [String],
+-- a qual recebe uma lista de alunos e retorna uma lista com o nome dos alunos aprovados. Um aluno
+-- está aprovado se a sua média é maior ou igual a 6. Não utilize map e filter para resolver esta
+-- questão. Utilize o conceito de list comprehension.
+-- C: Utilize (e modifique, se necessário) a função gerarPares vista em aula e disponı́vel no arquivo
+-- alunos.hs para formar duplas de alunos. Note que um aluno não pode fazer dupla consigo mesmo.
